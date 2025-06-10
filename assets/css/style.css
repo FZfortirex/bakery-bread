@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    margin-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    
+}
+
+#top1{
+    border-radius: 50px;
+    background-color: #F5DFBC;
+    margin: auto;
+    width: 80%;
+}
+
+#top{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+#name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#name img {
+    width: 50px;
+}
+
+nav ul{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul .list2{
+    margin-left: 3vw;
+}
+
+nav ul .list1{
+    margin-left: -8vw;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#sosmed i{
+    font-size: 24px;
+    margin-left: 2vw;
+}
+
+#first{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: #E8AF3F;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#bread {
+    width: 80%;
+    height: 500px;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+#slogan {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+#breadIcon {
+    width: 80px;
+}
+
+#second{
+    width: 100%;
+    margin: auto;
+    background-color: #ffffff;
+    padding-top: 100px;
+}
+
+#title-menu {
+    width: 80%;
+    margin: auto;
+    font-size: 45px;
+}
+
+.slider-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%; 
+    margin: auto;
+}
+
+#btn-left, #btn-right {
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 12px;
+    height: 50px;
+    width: 40px;
+    visibility: visible;
+    display: flex;
+    align-items: center;
+}
+
+#btn-left a, #btn-right a {
+    padding: 0px 10px 0px 10px;
+    font-size: 18px;
+}
+
+
+#btn-left {
+    left: 0;
+}
+
+#btn-right {
+    right: 0;
+}
+
+.menus {
+    padding-left: 10%;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    overflow-x: auto; 
+    -webkit-overflow-scrolling: touch;
+    cursor: grab;
+    scroll-behavior: smooth;
+}
+
+.menus:active {
+    cursor: grabbing;
+}
+
+.menus::-webkit-scrollbar {
+    display: none; 
+}
+
+.item img {
+    width: 250px;
+}
+
+.item {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto; 
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 12px;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.item-back {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    width: 250px;
+    height: 281px;
+    background-color: #E8AF3F;
+    flex: 0 0 auto; 
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 12px;
+    user-select: none;
+    -webkit-user-drag: none;
+    display: none;
+    flex-direction: column;
+    justify-content: end;
+    white-space: normal; 
+}
+
+.item-back h1 {
+    font-size: 20px;
+}
+
+.item-back p {
+    font-size: 14px;
+    width: 250px;
+}
+
+.item h1 {
+    font-size: 20px;
+}
+
+.limit-width {
+    width: 80%;
+    margin: auto;
+}
+.line {
+    width: 350px;
+    margin: 50px 0 50px 0;
+    border: 2px solid black;
+}
+
+#third{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #E8AF3F;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#aboutUs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#breadVector {
+    width: 350px;
+}
+
+#description h1 {
+    text-align: left;
+    font-size: 45px;
+}
+
+#description p {
+    font-size: 14px;
+    text-align: left;
+    width: 350px;
+}
+
+#order {
+    background-color: black;
+    border-radius: 12px;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+#order:hover {
+    margin-left: -2px;
+    padding: 12px;
+}
+
+footer {
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+#footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#footer-left h1 {
+    font-size: 35px;
+}
+
+#footer-right p {
+    font-size: 20px;
+}
