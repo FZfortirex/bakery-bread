@@ -218,7 +218,7 @@ nav ul li a{
     margin: auto;
 }
 .line {
-    width: 350px;
+    width: 100%;
     margin: 50px 0 50px 0;
     border: 2px solid black;
 }
